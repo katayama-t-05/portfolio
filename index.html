@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="ress.css">
+        <!--slider-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="header">
+            <nav>
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <section class="top">
+            <h2>Katayama <br>
+                <span class="space1"></span>Taishi<br>
+                <span class="space2"></span>Portfolio</h2>
+            <img class="top-img" src="./img/sky.jpg" alt="">
+        </section>
+        <main>
+            <section id="about">
+                <h2 class="title">ABOUT</h2>
+                <figure class="profile">
+                    <a href="about.html"><img class="profile-img" src="./img/profile.jpeg" alt="profile"></a>
+                    <figcaption class="profile-text">
+                        <h3 class="name">Katayama Taishi</h3>
+                        <p>2001年　愛知県出身</p>
+                        <p>今年の2月からHTML/CSSの勉強を始め、現在JavaScriptを勉強中</p>
+                        <p>将来はフロントエンド・バックエンド両方のスキルを高めフルスタックエンジニアとして活躍することが目標</p>
+                    </figcaption>
+                </figure>
+                <div class="view-more"><a href="about.html">View More</a></div>
+            </section>
+            <section id="work">
+                <h2 class="title">WORK</h2>
+                <div class="wrapper">
+                <div class="inner">
+                    <ul class="slider" id="js-slick">
+                        <li class="slider"><a href="work.html"><img src="./img/bicycle-web.png" alt="work1"></a></li>
+                        <li class="slider"><a href="work.html"><img src="./img/travel-web.png" alt="work2"></a></li>
+                        <li class="slider"><a href="work.html"><img src="./img/store-web.png" alt="work3"></a></li>
+                    </ul>
+                </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section id="contact">
+                <h2 class="title">CONTACT</h2>
+                <img src="./img/forest.jpg" alt="">
+                <div class="footer-text">
+                    <div class="footer-area">下記のメールアドレスにお気軽にご連絡ください<br>
+                    <a href="mailto:katayama.t0524@gmail.com">katayama.t0524@gmail.com</a></div>
+                    <p class="footer-text2">ご覧いただきありがとうございます</p>
+                </div>
+                <p class="copy"><small>&copy;Katayama Taishi</small></p>
+            </section>
+        </footer>
+        <!--hamburger-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
